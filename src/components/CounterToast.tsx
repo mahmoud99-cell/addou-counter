@@ -27,6 +27,7 @@ interface CounterToastProps {
 export function CounterToast({ title, description }: CounterToastProps) {
   return (
     <Box
+      mb="var(--space-2)"
       animation={`${toastIn} 180ms ease-out`}
       style={{
         background:
